@@ -21,7 +21,7 @@ namespace Features
 
         public Customer(Guid id,string name, string lastName, DateTime birthday, DateTime registerDate, string email, bool active)
         {
-            id = id;
+            Id = id;
             Name = name;
             LastName = lastName;
             Birthday = birthday;
